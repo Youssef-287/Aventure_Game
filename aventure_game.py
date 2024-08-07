@@ -43,7 +43,7 @@ def game():      # to make the game
 
 
     print_pause(
-        "Youssef is an scout..."
+        "Youssef is a scout..."
         "He is going on a new advanture in the forest ")
 
 
@@ -160,7 +160,7 @@ print(f"your current score is {score}")
 print("End")
 
 
-while True:
+while True:  #To repeat the game
     print("Do you want to play again? y/n" )
     user_input = input(["y","n"])
     if user_input == "y":
